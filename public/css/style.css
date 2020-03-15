@@ -1,4 +1,20 @@
 .header{
     margin: auto;
-    width: 650px;
+    width: 400px;
+}
+.logocenter{
+    display: flex;
+    justify-content: center;
+}
+.botborderblk{
+    border-bottom: 2px solid black;
+}
+.footer{
+    background-color: #f8f9fa;
+    border-top: 2px solid black;
+    height: 200px;
+    margin-top: 30px;
+}
+.defaultcursor{
+    cursor: default;
 }
