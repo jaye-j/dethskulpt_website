@@ -1,20 +1,84 @@
 .header{
     margin: auto;
-    width: 400px;
+    margin-bottom: 30px;
+    width: 480px;
 }
 .logocenter{
     display: flex;
     justify-content: center;
 }
+.logosize{
+    width: 450px;
+    height: auto;
+}
 .botborderblk{
     border-bottom: 2px solid black;
 }
 .footer{
-    background-color: #f8f9fa;
     border-top: 2px solid black;
-    height: 200px;
-    margin-top: 30px;
+    clear:both;
+    background: #f8f9fa;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    bottom:0;
+    width: 100%;
 }
 .defaultcursor{
     cursor: default;
 }
+.subtitle{
+    font-size: 15px;
+    font-family: 'Special Elite', cursive;
+}
+@media screen and (max-width: 500px) {
+    .header{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    .logosize{
+        width: 340px;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .header{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    .logosize{
+        width: 290px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+    .logosize{
+        width: 240px;
+        height: auto;
+    }
+}
+.socialicon{
+    height: 20px;
+}
+
+/* @media screen and (max-width: 500px) {
+        .footer{
+            border-top: 2px solid black;
+            clear:both;
+            background: #f8f9fa;
+            position: relative;
+            height: 150px;
+            overflow: hidden;
+            display: block;
+            bottom:0;
+            width: 100%;
+        }
+  } */
