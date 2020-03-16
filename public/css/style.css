@@ -68,6 +68,10 @@
 .socialicon{
     height: 20px;
 }
+.footerfont{
+    font-size: 13px;
+    font-family: 'Special Elite', cursive;
+}
 
 /* @media screen and (max-width: 500px) {
         .footer{
